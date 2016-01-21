@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.noprint { display: none; }
+div#cv {
+	position: relative;
+	left: 50%;
+	width: 70em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 5em;
+	margin-left: -35em;
+	padding: 15px;
+}
+
+ul#coordonnees {
+	margin: 0 0.2em;
+	padding: 0;
+}
+ul#coordonnees li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 1em;
+	text-align: center;
+}
+ul#coordonnees li strong {
+	font-size: 1.8em;
+}
+
+h1 {
+	border: solid 2px #000;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: solid 1px #000;
+}
+
+h3 {
+	text-align: center;
+	margin: 8px 0;
+}
+
+
+div.table div {
+	clear: both;
+	padding: 0.3em 0 0 0;
+}
+
+div.table, div#atouts div#programmation, div#atouts div#os {
+	margin: 1em 0 3em 0;
+}
+
+div.table span.gauche {
+	font-weight: bold;
+}
+
+div#atouts h4 {
+	text-align: center;
+	font-style: italic;
+}
+
+div#atouts div#programmation {
+	float: left;
+	width: 49%;
+	border-right: 1px dashed #000;
+}
+
+div#atouts div#os {
+	float: right;
+	width: 49%;
+} 
+
+div#footer {
+	display: none;
+}

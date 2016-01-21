@@ -1,0 +1,61 @@
+body {
+	font-family: Verdana, serif;
+	font-size: 60%;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.15em;
+}
+
+h1, h2, h3, h4 {
+	clear: both;
+}
+
+a {
+	color: #999;
+}
+
+div#cv {
+	clear: both;
+}
+
+
+div.table div {
+	clear: both;
+	padding: 1em 0 0 0;
+}
+
+div.table span {
+	position: relative;
+}
+
+div.table span.gauche {
+	float: left;
+	width: 22%;
+	text-align: right;
+}
+
+div.table span.droite {
+	float: right;
+	width: 76%;
+	text-align: justify;
+}
+
+footer p {
+	text-align: center;
+}
+
+acronym {
+	border-bottom: dashed 1px #CCC;
+}
